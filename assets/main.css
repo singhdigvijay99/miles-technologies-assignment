@@ -955,6 +955,8 @@ footer a:hover {
 
   .center-cta h2 {
     font-size: 34px;
+    line-height: 1.2;
+    max-width: 100%;
   }
 
   .testimonial {
@@ -997,7 +999,8 @@ footer a:hover {
 
   .center-cta h2 {
     font-size: 28px;
-    line-height: 1.2;
+    line-height: 1.25;
+    letter-spacing: 1px;
   }
 
   .center-cta p {
@@ -1006,24 +1009,3 @@ footer a:hover {
 }
 
 
-@media (max-width: 768px) {
-
-  .center-cta h2 {
-    font-size: 34px;
-
-    line-height: 1.2;
-
-    max-width: 100%;
-  }
-}
-
-@media (max-width: 576px) {
-
-  .center-cta h2 {
-    font-size: 28px;
-
-    line-height: 1.25;
-
-    letter-spacing: 1px;
-  }
-}
