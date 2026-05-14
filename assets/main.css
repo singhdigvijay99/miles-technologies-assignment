@@ -415,7 +415,7 @@ nav {
   letter-spacing: 2px;
   color: #fff;
   margin-bottom: 22px;
-  white-space: nowrap;
+  word-break: break-word;
 }
 
 .center-cta p {
@@ -1002,5 +1002,28 @@ footer a:hover {
 
   .center-cta p {
       font-size: 14px;
+  }
+}
+
+
+@media (max-width: 768px) {
+
+  .center-cta h2 {
+    font-size: 34px;
+
+    line-height: 1.2;
+
+    max-width: 100%;
+  }
+}
+
+@media (max-width: 576px) {
+
+  .center-cta h2 {
+    font-size: 28px;
+
+    line-height: 1.25;
+
+    letter-spacing: 1px;
   }
 }
