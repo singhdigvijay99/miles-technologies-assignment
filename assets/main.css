@@ -495,7 +495,7 @@ nav {
   font-size: 15px;
 }
 
-/* =========================================================
+//* =========================================================
    TESTIMONIALS
 ========================================================= */
 .testimonials {
@@ -508,13 +508,6 @@ nav {
   margin: auto;
 }
 
-.testimonials h2 {
-  font-family: 'Oswald', sans-serif;
-  font-size: 34px;
-  margin-bottom: 40px;
-  text-transform: uppercase;
-}
-
 .testimonials-grid {
   display: grid;
   grid-template-columns: repeat(2, 1fr);
@@ -524,17 +517,30 @@ nav {
 .testimonial {
   padding: 42px;
   background: #fff;
-  border: 1px solid #ececec;
-  box-shadow: var(--shadow-sm);
+  border: none;
+  box-shadow: none;
+}
+
+.testimonial-heading {
+  font-family: 'Oswald', sans-serif;
+  font-size: 24px;
+  font-weight: 400;
+  text-transform: none;
+  color: #222;
+  margin-bottom: 28px;
+}
+
+.quote-wrap {
+  position: relative;
+  margin-bottom: 32px;
 }
 
 .quote-mark {
-  font-size: 70px;
-  line-height: .5;
-  color: var(--accent);
-  font-family: Georgia, serif;
   display: block;
-  margin-bottom: 20px;
+  width: 48px;
+  height: auto;
+  margin-bottom: -12px;
+  opacity: 0.55;
 }
 
 .testimonial p {
@@ -570,6 +576,53 @@ nav {
 .author-info .role {
   font-size: 13px;
   color: var(--text-light);
+}
+
+/* =========================================================
+   TESTIMONIALS — RESPONSIVE
+========================================================= */
+@media (max-width: 991px) {
+  .testimonials-grid {
+    grid-template-columns: 1fr;
+  }
+}
+
+@media (max-width: 768px) {
+  .testimonials {
+    padding: 70px 24px;
+  }
+
+  .testimonial {
+    padding: 32px;
+  }
+
+  .testimonial-heading {
+    font-size: 22px;
+    margin-bottom: 22px;
+  }
+
+  .quote-mark {
+    width: 40px;
+  }
+}
+
+@media (max-width: 576px) {
+  .testimonial {
+    padding: 24px;
+  }
+
+  .testimonial-heading {
+    font-size: 20px;
+  }
+
+  .avatar {
+    width: 52px;
+    height: 52px;
+  }
+
+  .author-info .name {
+    font-size: 16px;
+  }
 }
 /* =========================================================
    BOTTOM CTA
