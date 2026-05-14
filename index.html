@@ -1,0 +1,232 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+  <title>Your Successful Website</title>
+  <link href="https://fonts.googleapis.com/css2?family=Oswald:wght@400;500;600;700&family=Lato:wght@300;400;700&display=swap" rel="stylesheet" />
+  <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.5.1/css/all.min.css" />
+  <link rel="stylesheet" href="./assets/main.css" />
+</head>
+<body>
+
+<!-- ══ NAVBAR ══ -->
+<nav>
+  <a href="#" class="nav-logo">
+    <div class="nav-logo-icon"><span>CO</span></div>
+    <span class="nav-logo-text">COMPANY</span>
+  </a>
+  <ul class="nav-links" id="navLinks">
+    <li><a href="#about">About</a></li>
+    <li><a href="#who">Who We Are</a></li>
+    <li><a href="#what">What We Do</a></li>
+    <li><a href="#contact">Contact</a></li>
+  </ul>
+  <div class="hamburger" id="hamburger" aria-label="Toggle menu">
+    <span></span><span></span><span></span>
+  </div>
+</nav>
+
+<!-- ══ HERO ══ -->
+<section class="hero" id="home">
+  <div class="hero-bg"></div>
+  <div class="hero-overlay"></div>
+  <div class="hero-content">
+    <h1>Your Successful Website Title</h1>
+    <p>"The first rule of any technology used in a business is that automation applied to an efficient operation will magnify the efficiency. The second is that automation applied to an inefficient operation will magnify the inefficiency."</p>
+    <p>— Bill Gates</p>
+  </div>
+</section>
+
+<!-- ══ FLOATING CARDS ══ -->
+<section class="cards-section" id="what">
+  <div class="cards-grid">
+
+    <div class="card reveal">
+      <div class="card-icon">
+        <!-- Growth icon -->
+      <img src="./assets/images/icon-growth.svg" alt="">
+      </div>
+      <h3>Grow Your Business</h3>
+      <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua.</p>
+    </div>
+
+    <div class="card reveal" style="animation-delay:.1s">
+      <div class="card-icon">
+        <!-- Megaphone icon -->
+         <img src="./assets/images/icon-megaphone.svg" alt="">
+      </div>
+      <h3>Get Your Business Noticed</h3>
+      <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua.</p>
+    </div>
+
+    <div class="card reveal" style="animation-delay:.2s">
+      <div class="card-icon">
+        <!-- Solution icon -->
+         <img src="./assets/images/icon-shack.svg" alt="">
+      </div>
+      <h3>Find Perfect Solution</h3>
+      <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua.</p>
+    </div>
+
+    <div class="card reveal" style="animation-delay:.3s">
+      <div class="card-icon">
+        <!-- Productivity icon -->
+         <img src="./assets/images/icon-suitcase.svg" alt="">
+      </div>
+      <h3>Increase Productivity</h3>
+      <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua.</p>
+    </div>
+
+  </div>
+</section>
+
+<!-- ══ IMAGE + TEXT 1 ══ -->
+<section class="img-text" id="who">
+  <div class="img-text-inner reveal">
+    <img src="./assets/images/team collaborating-min.jpg" alt="Team collaborating" loading="lazy" />
+    <div class="img-text-body">
+      <h2>Goals We Can Help You Achieve</h2>
+      <p>At vero eos et accusamus et iusto odio dignissimos ducimus qui blanditiis praesentium voluptatum deleniti atque corrupti quos dolores et quas molestias excepturi sint occaecati cupiditate non provident, similique sunt in culpa.</p>
+    </div>
+  </div>
+</section>
+
+<!-- ══ IMAGE + TEXT 2 ══ -->
+<section class="img-text" style="background:var(--light-bg)">
+  <div class="img-text-inner reverse reveal">
+    <img src="./assets/images/meeting room-min.jpg" alt="Meeting room" loading="lazy" />
+    <div class="img-text-body">
+      <h2>It All Starts With Strategy</h2>
+      <p>Temporibus autem quibusdam et aut officiis debitis aut rerum necessitatibus saepe eveniet ut et voluptates repudiandae sint et molestiae non recusandae. Itaque earum rerum hic tenetur a sapiente delectus.</p>
+    </div>
+  </div>
+</section>
+
+<!-- ══ CENTER CTA ══ -->
+<section class="center-cta" id="about">
+  <div class="center-cta-bg"></div>
+  <div class="center-cta-overlay"></div>
+  <div class="center-cta-content reveal">
+    <h2>Let's Create Something Great Together</h2>
+    <p>Sed ut perspiciatis unde omnis iste natus error sit voluptatem accusantium doloremque laudantium, totam rem aperiam, eaque ipsa quae ab illo inventore veritatis.Sed ut perspiciatis unde omnis iste natus error sit voluptatem accusantium doloremque laudantium, totam rem aperiam, eaque ipsa quae ab illo inventore veritatis.</p>
+    <a href="#contact" class="btn">Contact Us</a>
+  </div>
+</section>
+
+<!-- ══ STATS + TEXT ══ -->
+<section class="stats-section">
+  <div class="stats-inner">
+
+    <div class="stats-grid reveal">
+      <div class="stat-item">
+        <div class="stat-icon">
+          <img src="./assets/images/icon-chart.svg" alt="">
+        </div>
+        <div><div class="stat-label">75% Growth</div></div>
+      </div>
+      <div class="stat-item">
+        <div class="stat-icon">
+          <img src="./assets/images/icon-dollar.svg" alt="">
+        </div>
+        <div><div class="stat-label">115% Profit</div></div>
+      </div>
+      <div class="stat-item">
+        <div class="stat-icon">
+          <img src="./assets/images/icon-laptop.svg" alt="">
+        </div>
+        <div><div class="stat-label">32% Savings</div></div>
+      </div>
+      <div class="stat-item">
+        <div class="stat-icon">
+          <img src="./assets/images/icon-mail.svg" alt="">
+        </div>
+        <div><div class="stat-label">24/7 Support</div></div>
+      </div>
+    </div>
+
+    <div class="stats-body reveal">
+      <h2>We'll Help You Create a Plan</h2>
+      <p>At vero eos et accusamus et iusto odio dignissimos ducimus qui blanditiis praesentium voluptatum deleniti atque corrupti quos dolores et quas molestias excepturi sint.</p>
+    </div>
+
+  </div>
+</section>
+
+<!-- ══ TESTIMONIALS ══ -->
+<section class="testimonials">
+  <div class="testimonials-inner">
+    <h2>Testimonial</h2>
+    <div class="testimonials-grid">
+
+      <div class="testimonial reveal">
+        <span class="quote-mark">&ldquo;</span>
+        <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris.</p>
+        <div class="testimonial-author">
+          <div class="avatar">
+            <img src="./assets/images/female headshot-min.jpg" alt="Jane Doe" loading="lazy" />
+          </div>
+          <div class="author-info">
+            <div class="name">Jane Doe</div>
+            <div class="role">CEO, Business Solutions</div>
+          </div>
+        </div>
+      </div>
+
+      <div class="testimonial reveal" style="transition-delay:.15s">
+        <span class="quote-mark">&ldquo;</span>
+        <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris.</p>
+        <div class="testimonial-author">
+          <div class="avatar">
+            <img src="./assets/images/male headshot-min.jpg" alt="John Doe" loading="lazy" />
+          </div>
+          <div class="author-info">
+            <div class="name">John Doe</div>
+            <div class="role">CEO, Business Solutions</div>
+          </div>
+        </div>
+      </div>
+
+    </div>
+  </div>
+</section>
+
+<!-- ══ BOTTOM CTA ══ -->
+<section class="bottom-cta">
+  <div class="bottom-cta-bg"></div>
+  <div class="bottom-cta-overlay"></div>
+  <div class="bottom-cta-content reveal">
+    <h2>Let's Bring It to the Next Level</h2>
+    <p>We're here to guide you in the right direction when it comes to improving technology and growing your business to new heights.</p>
+    <a href="#contact" class="btn">Start Today</a>
+  </div>
+</section>
+
+<!-- ══ FOOTER ══ -->
+<footer id="contact">
+
+  <div class="footer-social">
+    <a href="#"><i class="fab fa-facebook-f"></i></a>
+    <a href="#"><i class="fab fa-twitter"></i></a>
+    <a href="#"><i class="fab fa-linkedin-in"></i></a>
+    <a href="#"><i class="fab fa-google-plus-g"></i></a>
+    <a href="#"><i class="fab fa-pinterest-p"></i></a>
+    <a href="#"><i class="fab fa-reddit-alien"></i></a>
+    <a href="#"><i class="fab fa-dropbox"></i></a>
+  </div>
+
+  <div class="footer-logo">
+    Company Title © 2020. All Rights Reserved.
+  </div>
+
+  <p>
+    Website Design by MilesTechnologies.com |
+    <a href="#">Sitemap</a> |
+    <a href="#">Privacy Policy</a>
+  </p>
+
+</footer>
+
+<script src="./assets/main.js"></script>
+</body>
+</html>
